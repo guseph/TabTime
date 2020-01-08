@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* button {
+        height: 30px;
+        width: 30px;
+        outline: none;
+      } */
+      table, th, td {
+          width: 35%;
+          border: 1px solid black;
+          padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+      <div>
+        <button id="refreshButton">Refresh</button>
+        <button id="resetButton">Reset</button>
+    </div>
+        <!-- insert a table filled with tab times of all websites, sorted alphabetically, include www -->
+        <table>
+            <tr>
+                <th>Website</th>
+                <th>Time (min)</th>
+            </tr>
+            <tr>
+                <td>www.amazon.com</td>
+                <td>34</td>
+            </tr>
+            <tr>
+                <td>www.google.com</td>
+                <td>199</td>
+            </tr>
+            <tr>
+                <td>www.ebay.com</td>
+                <td>999999999999999</td>
+            </tr>
+        </table>
+        <script src="popup.js"></script>
+  </body>
+</html>
